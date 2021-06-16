@@ -4,9 +4,9 @@ import { getPosition, choiceSerial } from "../utils/functions";
 import allCandidate from "../assets/candidates.json";
 
 const Result = ({ result }) => {
-  result = {
-    "0Chair": 3,
-  };
+  // result = {
+  //   "0Chair": 3,
+  // };
   /**
    * filters candidate by id
    * @param {int} serial
