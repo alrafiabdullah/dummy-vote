@@ -4,6 +4,9 @@ import { getPosition, choiceSerial } from "../utils/functions";
 import allCandidate from "../assets/candidates.json";
 
 const Result = ({ result }) => {
+  result = {
+    "0Chair": 3,
+  };
   /**
    * filters candidate by id
    * @param {int} serial
@@ -31,8 +34,10 @@ const Result = ({ result }) => {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
-                  {choiceSerial(keys[index][0])} {getPosition(values.position)}{" "}
-                  Choice
+                  <strong style={{ color: "blue" }}>
+                    {choiceSerial(keys[index][0])}{" "}
+                    {getPosition(values.position)} Choice
+                  </strong>
                 </h5>
                 <div className="card mt-3">
                   <div className="card-body">

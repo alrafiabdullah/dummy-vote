@@ -50,7 +50,6 @@ const CandidateForm = () => {
    */
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log(voteData);
     setSubmitted(true);
   };
 

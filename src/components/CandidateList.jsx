@@ -18,7 +18,7 @@ const CandidateList = ({ arr, changeHandler }) => {
         <div className="card mt-5">
           <div className="card-body">
             <h3 align="center" className="card-title">
-              {getPosition(arr[0].position)} Candidates
+              <strong>{getPosition(arr[0].position)} Candidates</strong>
             </h3>
             <div align="center" className="alert alert-info" role="alert">
               Please select different candidate for different choices!
