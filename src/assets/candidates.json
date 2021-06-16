@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "name": "Dummy Chair 1",
+        "position": "Chair",
+        "NSUID": 123456789
+    },
+    {
+        "id": 1,
+        "name": "Dummy Chair 2",
+        "position": "Chair",
+        "NSUID": 987654321
+    },
+    {
+        "id": 2,
+        "name": "Dummy Vice Chair 1",
+        "position": "ViceChair",
+        "NSUID": 456123789
+    },
+    {
+        "id": 3,
+        "name": "Dummy Vice Chair 2",
+        "position": "ViceChair",
+        "NSUID": 789456123
+    },
+    {
+        "id": 4,
+        "name": "Dummy Vice Chair 3",
+        "position": "ViceChair",
+        "NSUID": 123789456
+    },
+    {
+        "id": 5,
+        "name": "Dummy Secretary 1",
+        "position": "Secretary",
+        "NSUID": 134679258
+    },
+    {
+        "id": 6,
+        "name": "Dummy Secretary 2",
+        "position": "Secretary",
+        "NSUID": 789456123
+    },
+    {
+        "id": 7,
+        "name": "Dummy Secretary 3",
+        "position": "Secretary",
+        "NSUID": 123789456
+    },
+    {
+        "id": 8,
+        "name": "Dummy Treasurer 1",
+        "position": "Treasurer",
+        "NSUID": 134679258
+    },
+    {
+        "id": 9,
+        "name": "Dummy Treasurer 2",
+        "position": "Treasurer",
+        "NSUID": 134679258
+    },
+    {
+        "id": 10,
+        "name": "Dummy Treasurer 3",
+        "position": "Treasurer",
+        "NSUID": 134679258
+    },
+    {
+        "id": 11,
+        "name": "Dummy Membership Chair 1",
+        "position": "MembershipChair",
+        "NSUID": 134679258
+    },
+    {
+        "id": 12,
+        "name": "Dummy Membership Chair 2",
+        "position": "MembershipChair",
+        "NSUID": 134679258
+    },
+    {
+        "id": 13,
+        "name": "Dummy Webmaster 1",
+        "position": "Webmaster",
+        "NSUID": 134679258
+    },
+    {
+        "id": 14,
+        "name": "Dummy Webmaster 2",
+        "position": "Webmaster",
+        "NSUID": 134679258
+    },
+    {
+        "id": 15,
+        "name": "Dummy Webmaster 3",
+        "position": "Webmaster",
+        "NSUID": 134679258
+    }
+]

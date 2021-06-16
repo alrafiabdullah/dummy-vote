@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import { Toaster } from "react-hot-toast";
+
 import './App.css';
+
+import CandidateForm from "./components/CandidateForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container jumbotron">
+      <h1 className="mt-5" align="center">Welcome to Dummy Vote!</h1>
+      <Toaster position="top-center" />
+      <CandidateForm />
     </div>
   );
 }
