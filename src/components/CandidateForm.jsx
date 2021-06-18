@@ -51,6 +51,7 @@ const CandidateForm = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     setSubmitted(true);
+    localStorage.setItem("voted", true);
   };
 
   /**
